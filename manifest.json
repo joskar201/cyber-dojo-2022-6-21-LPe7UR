@@ -1,0 +1,21 @@
+{
+  "display_name": "Kotlin, Kotlintest",
+  "image_name": "cyberdojofoundation/kotlin_test:857e4fa",
+  "filename_extension": [
+    ".kt"
+  ],
+  "max_seconds": 20,
+  "tab_size": 4,
+  "exercise": "Calc Stats",
+  "version": 2,
+  "created": [
+    2022,
+    6,
+    21,
+    15,
+    53,
+    59,
+    411727
+  ],
+  "id": "LPe7UR"
+}
