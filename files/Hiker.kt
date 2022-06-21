@@ -5,7 +5,7 @@ fun minimum(arr: Array<Int>): Double {
     for (num in arr){
         if (num < min) min = num
     }
-    return min
+    return min.toDouble()
 }
 
 fun maximum(arr: Array<Int>): Double {
