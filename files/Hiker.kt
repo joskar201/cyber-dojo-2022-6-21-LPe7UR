@@ -21,5 +21,5 @@ fun count(arr: Array<Int>): Int {
 }
 
 fun average(arr: Array<Int>): Double {
-    return arr.sum() / arr.size
+    return (arr.sum() / arr.size).toDouble()
 }

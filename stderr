@@ -1,4 +1,1 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Hiker.kt:24:12: error: type mismatch: inferred type is Int but Double was expected
-    return arr.sum() / arr.size
-           ^
