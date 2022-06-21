@@ -91,5 +91,21 @@
       28,
       965071
     ]
+  },
+  {
+    "duration": 7.798612,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 6,
+    "time": [
+      2022,
+      6,
+      21,
+      16,
+      18,
+      15,
+      420912
+    ]
   }
 ]
