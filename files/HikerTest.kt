@@ -16,6 +16,7 @@ class HikerTest /*[X]*/ : StringSpec() {
         
         "maximum value" {
             hiker.maximum(arrayOf(6, 9, 15, -2, 92, 11)) shouldBe 92.toDouble()
+            hiker.maximum(arrayOf(6, 9, 15, -2, 98, 11)) shouldBe 98.toDouble()
         }
         
         "number of elements in the sequence" {
