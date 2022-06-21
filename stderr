@@ -1,4 +1,13 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Hiker.kt:15:24: error: unresolved reference: INt
-fun average(arr: Array<INt>): Double {
-                       ^
+Hiker.kt:3:13: warning: parameter 'arr' is never used
+fun minimum(arr: Array<Int>): Double {
+            ^
+Hiker.kt:7:13: warning: parameter 'arr' is never used
+fun maximum(arr: Array<Int>): Double {
+            ^
+Hiker.kt:11:11: warning: parameter 'arr' is never used
+fun count(arr: Array<Int>): Double {
+          ^
+Hiker.kt:15:13: warning: parameter 'arr' is never used
+fun average(arr: Array<Int>): Double {
+            ^

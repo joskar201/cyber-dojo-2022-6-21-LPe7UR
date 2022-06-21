@@ -12,6 +12,6 @@ fun count(arr: Array<Int>): Double {
     return 6.toDouble() 
 }
 
-fun average(arr: Array<INt>): Double {
+fun average(arr: Array<Int>): Double {
     return 21.833333.toDouble()
 }
