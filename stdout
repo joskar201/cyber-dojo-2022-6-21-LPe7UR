@@ -10,8 +10,12 @@
 1) [32m   	minimum value[39m
 [32m   	maximum value[39m
 [32m   	number of elements in the sequence[39m
-[32m   	average value[39m
+[31m   	average value *** FAILED ***[39m
+[31m	  	cause: expected: 3.0 but was: 21.833333 (HikerTest.kt:27)[39m
 
-KotlinTest completed in 0 seconds, 773 millis
+KotlinTest completed in 0 seconds, 664 millis
 Specs: completed 1, tests 4
-Tests: passed 4, failed 0, ignored 0
+Tests: passed 3, failed 1, ignored 0
+[31m*** 1 TESTS FAILED ***[39m
+Specs with failing tests:
+[31m - hiker.HikerTest[39m
