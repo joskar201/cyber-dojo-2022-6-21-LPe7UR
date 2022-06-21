@@ -1,5 +1,5 @@
 package hiker
 
-fun minimum(arr:Array<Int>): FLoat{
+fun minimum(arr:Array<Int>): Double{
     return -2
 }
