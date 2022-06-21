@@ -16,7 +16,7 @@ fun maximum(arr: Array<Int>): Double {
     return max.toDouble()
 }
 
-fun count(arr: Array<Int>): Double {
+fun count(arr: Array<Int>): Int {
     return arr.size
 }
 
