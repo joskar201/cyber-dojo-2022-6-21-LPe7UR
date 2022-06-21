@@ -21,6 +21,7 @@ class HikerTest /*[X]*/ : StringSpec() {
         
         "number of elements in the sequence" {
             hiker.count(arrayOf(6, 9, 15, -2, 92, 11)) shouldBe 6.toDouble()
+            hiker.count(arrayOf(6, 9, 15, -2, 92, 11, 23)) shouldBe 7.toDouble()
         }
         
         "average value" {
