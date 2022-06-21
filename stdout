@@ -1,0 +1,19 @@
+~~~ Project Configuration ~~~
+-> Parallelism: 1 thread
+-> Test order: LexicographicSpecExecutionOrder
+-> Soft assertations: False
+-> Write spec failure file: False
+-> Fail on ignored tests: False
+-> Extensions
+  - io.kotlintest.extensions.SystemPropertyTagExtension
+  - io.kotlintest.extensions.RuntimeTagExtension
+1) [31m   	minimum value *** FAILED ***[39m
+[31m	  	cause: expected: -2 but was: -2.0 (HikerTest.kt:12)[39m
+[32m   	Other example test[39m
+
+KotlinTest completed in 0 seconds, 684 millis
+Specs: completed 1, tests 2
+Tests: passed 1, failed 1, ignored 0
+[31m*** 1 TESTS FAILED ***[39m
+Specs with failing tests:
+[31m - hiker.HikerTest[39m
