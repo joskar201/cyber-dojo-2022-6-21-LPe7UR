@@ -11,7 +11,7 @@ fun minimum(arr: Array<Int>): Double {
 fun maximum(arr: Array<Int>): Double {
     var max = arr[0]
     for (num in arr){
-        if (num < max) max = num
+        if (num > max) max = num
     }
     return max.toDouble()
 }
