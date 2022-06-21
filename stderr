@@ -1,0 +1,7 @@
+OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+Hiker.kt:4:12: error: type mismatch: inferred type is Int but Unit was expected
+    return -2
+           ^
+HikerTest.kt:13:27: error: unsupported [Collection literals outside of annotations]
+            hiker.minimum([6, 9, 15, -2, 92, 11]) shouldBe -2
+                          ^

@@ -9,8 +9,8 @@ import io.kotlintest.shouldNotBe
 class HikerTest /*[X]*/ : StringSpec() {
 
     init {
-        "Example Test" {
-            hiker.answer() shouldBe 42
+        "minimum value" {
+            hiker.minimum([6, 9, 15, -2, 92, 11]) shouldBe -2
         }
 
         "Other example test" {
