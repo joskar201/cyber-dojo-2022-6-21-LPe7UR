@@ -9,11 +9,11 @@
   - io.kotlintest.extensions.RuntimeTagExtension
 1) [32m   	minimum value[39m
 [31m   	maximum value *** FAILED ***[39m
-[31m	  	cause: expected: 98.0 but was: 92.0 (HikerTest.kt:17)[39m
+[31m	  	cause: expected: 92.0 but was: -2.0 (HikerTest.kt:17)[39m
 [32m   	number of elements in the sequence[39m
 [32m   	average value[39m
 
-KotlinTest completed in 0 seconds, 710 millis
+KotlinTest completed in 0 seconds, 760 millis
 Specs: completed 1, tests 4
 Tests: passed 3, failed 1, ignored 0
 [31m*** 1 TESTS FAILED ***[39m

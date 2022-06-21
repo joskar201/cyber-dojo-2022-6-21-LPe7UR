@@ -9,7 +9,11 @@ fun minimum(arr: Array<Int>): Double {
 }
 
 fun maximum(arr: Array<Int>): Double {
-    return 92.toDouble()
+    var max = arr[0]
+    for (num in arr){
+        if (num < max) max = num
+    }
+    return max.toDouble()
 }
 
 fun count(arr: Array<Int>): Double {
