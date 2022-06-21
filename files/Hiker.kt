@@ -17,7 +17,7 @@ fun maximum(arr: Array<Int>): Double {
 }
 
 fun count(arr: Array<Int>): Double {
-    return arr.size()
+    return arr.size
 }
 
 fun average(arr: Array<Int>): Double {
