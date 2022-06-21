@@ -13,7 +13,7 @@
 [32m   	number of elements in the sequence[39m
 [32m   	average value[39m
 
-KotlinTest completed in 0 seconds, 760 millis
+KotlinTest completed in 0 seconds, 777 millis
 Specs: completed 1, tests 4
 Tests: passed 3, failed 1, ignored 0
 [31m*** 1 TESTS FAILED ***[39m
