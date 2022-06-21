@@ -20,6 +20,6 @@ fun count(arr: Array<Int>): Int {
     return arr.size
 }
 
-fun average(arr: Array<Int>): Float {
-    return (arr.sum() / arr.size).toFloat()
+fun average(arr: Array<Int>): Double {
+    return (arr.sum() / arr.size).toDouble()
 }
