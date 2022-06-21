@@ -11,6 +11,19 @@ class HikerTest /*[X]*/ : StringSpec() {
     init {
         "minimum value" {
             hiker.minimum(arrayOf(6, 9, 15, -2, 92, 11)) shouldBe -2.toDouble()
+            hiker.minimum(arrayOf(6, 9, 15, 3, 92, 11)) shouldBe 3.toDouble()
+        }
+        
+        "maximum value" {
+            hiker.maximum(arrayOf(6, 9, 15, -2, 92, 11)) shouldBe 92.toDouble()
+        }
+        
+        "number of elements in the sequence" {
+            hiker.count(arrayOf(6, 9, 15, -2, 92, 11)) shouldBe 6.toDouble()
+        }
+        
+        "average value" {
+            hiker.average(arrayOf(6, 9, 15, -2, 92, 11)) shouldBe 21.833333.toDouble()
         }
     }
 }
