@@ -25,7 +25,7 @@ class HikerTest /*[X]*/ : StringSpec() {
         }
         
         "average value" {
-            hiker.average(arrayOf(6, 9, 15, -2, 92, 11)) shouldBe 21.833333.toDouble()
+            hiker.average(arrayOf(5, 5, 5, 5, 5, 5)) shouldBe 5.toDouble()
             hiker.average(arrayOf(3, 3, 3, 3, 3, 3)) shouldBe 3.toDouble()
         }
     }
