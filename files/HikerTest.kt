@@ -12,9 +12,5 @@ class HikerTest /*[X]*/ : StringSpec() {
         "minimum value" {
             hiker.minimum(arrayOf(6, 9, 15, -2, 92, 11)) shouldBe -2
         }
-
-        "Other example test" {
-            "a" shouldNotBe "b"
-        }
     }
 }
